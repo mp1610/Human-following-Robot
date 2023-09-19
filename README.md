@@ -31,3 +31,5 @@ NOTE: The complete zipped folder cannot be uploaded onto GitHub due to the size 
 
 As guidance, ensure that mmdetection is installed following the method in the Appendix of the report. Move 'coco_image' into mmdetection. Add 'yolov3.py' and 'yolov3_base.py' into 'mmdetection/configs/yolo'.
 Once you train the model, a 'work_dirs' folder will be available in 'mmdetection' with the saved checkpoints for each epoch. Finally, the 'HumanFollowingRobot' folder contains several different codes that call the saved YOLO trained checkpoints. Ensure that the chosen hyperparameters and file directories are consistent at each stage of the project (as it may differ to that which I have used).
+
+I am also unable to upload my 'dev_ws' file (due to its size) which consists of a lot of the TurtleBot3 messages, installation, and build commands. These should be available to download online. Without these installed, the TurtleBot3 Waffle Pi will not respond to commands or operate as intended.

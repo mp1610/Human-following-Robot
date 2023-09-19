@@ -26,3 +26,8 @@ Finally, the trained detection model is implemented into an ROS code that applie
 TurtleBot3 robot and directs the robot to follow the human throughout a range of scenarios
 based on its human detection capabilities to see how well it performs in increasingly difficult
 scenarios.
+
+NOTE: The complete zipped folder cannot be uploaded onto GitHub due to the size of it. Since the project is highly dependent on files being in their correct file directories, this project will be hard to reporoduce. 
+
+As guidance, ensure that mmdetection is installed following the method in the Appendix of the report. Move 'coco_image' into mmdetection. Add 'yolov3.py' and 'yolov3_base.py' into 'mmdetection/configs/yolo'.
+Once you train the model, a 'work_dirs' folder will be available in 'mmdetection' with the saved checkpoints for each epoch. Finally, the 'HumanFollowingRobot' folder contains several different codes that call the saved YOLO trained checkpoints. Ensure that the chosen hyperparameters and file directories are consistent at each stage of the project (as it may differ to that which I have used).

@@ -4,7 +4,7 @@ This thesis study investigates the development of a human-following robot virtua
 
 The code attached contains the different ROS commands, Gazebo worlds, and YOLOv3 trained models.
 
-All the detail of the project methodology is included in the report.
+All the detail of the project methodology is included in the report (X5a829eae_1.pdf).
 
 Brief Summary:
 

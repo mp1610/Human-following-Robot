@@ -2,7 +2,7 @@
 
 This thesis study investigates the development of a human-following robot virtually using ROS, PyTorch, and Gazebo.
 
-The code attached contains the different ROS commands, Gazebo worlds, and YOLOv3 trained models. To reproduce this project, follow the instructions in the Appendix of the report.
+The code attached contains the different ROS commands, Gazebo worlds, and YOLOv3 trained models.
 
 All the detail of the project methodology is included in the report.
 
